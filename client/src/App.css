@@ -1,0 +1,22 @@
+.background{
+    background-image: url("./assets/home/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Add this CSS to your stylesheet or in a style tag */
+
+.swiper-pagination-progressbar {
+    background: transparent;
+    height: 5px; /* Adjust height to your preference */
+    top: auto; /* Position at the bottom */
+    bottom: 10px; /* Adjust bottom margin to your preference */
+    width: 80%; /* Adjust width to your preference */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .swiper-pagination-progressbar-fill {
+    background: #000; /* Color of the progress line */
+  }
+  

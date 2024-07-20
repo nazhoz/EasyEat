@@ -1,0 +1,1132 @@
+[
+    {
+      "id":1,
+      "name": "Classic Beef Burger",
+      "price": 8.99,
+      "rating": 4.5,
+      "description": "A juicy beef burger with lettuce, tomato, and cheese.",
+      "howToMake": "Grill the beef patty, assemble with lettuce, tomato, cheese, and bun.",
+      "ingredients": ["Beef patty", "Lettuce", "Tomato", "Cheese", "Bun"],
+      "images": "/classic-beef-burger-removebg-preview.png",
+      "categories":"burger"
+    },
+    {
+      "id":2,
+      "name": "Cheese Burger",
+      "price": 9.49,
+      "rating": 4.7,
+      "description": "A classic cheeseburger with cheddar cheese, lettuce, and tomato.",
+      "howToMake": "Grill the beef patty, add cheddar cheese, assemble with lettuce, tomato, and bun.",
+      "ingredients": ["Beef patty", "Cheddar cheese", "Lettuce", "Tomato", "Bun"],
+      "images": "/cheese-burger-removebg-preview.png",
+      "categories":"burger"
+    },
+    {
+      "id":3,
+      "name": "Bacon Burger",
+      "price": 10.49,
+      "rating": 4.8,
+      "description": "A savory burger with crispy bacon, lettuce, and tomato.",
+      "howToMake": "Grill the beef patty, cook bacon until crispy, assemble with lettuce, tomato, and bun.",
+      "ingredients": ["Beef patty", "Bacon", "Lettuce", "Tomato", "Bun"],
+      "images": "/bacon-burger-removebg-preview.png",
+      "categories":"burger"
+    },
+    {
+      "id":4,
+      "name": "Veggie Burger",
+      "price": 7.99,
+      "rating": 4.4,
+      "description": "A delicious veggie burger made with a variety of vegetables.",
+      "howToMake": "Cook the veggie patty, assemble with lettuce, tomato, and bun.",
+      "ingredients": ["Veggie patty", "Lettuce", "Tomato", "Bun"],
+      "images": "/veggie-burger-removebg-preview.png",
+      "categories":"burger"
+    },
+    {
+      "id":5,
+      "name": "Chicken Burger",
+      "price": 9.99,
+      "rating": 4.6,
+      "description": "A flavorful chicken burger with lettuce and mayo.",
+      "howToMake": "Grill the chicken patty, assemble with lettuce, mayo, and bun.",
+      "ingredients": ["Chicken patty", "Lettuce", "Mayo", "Bun"],
+      "images": ["/chicken-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":6,
+      "name": "Spicy Burger",
+      "price": 9.49,
+      "rating": 4.5,
+      "description": "A hot and spicy burger with jalapenos and pepper jack cheese.",
+      "howToMake": "Grill the beef patty, add jalapenos and pepper jack cheese, assemble with bun.",
+      "ingredients": ["Beef patty", "Jalapenos", "Pepper jack cheese", "Bun"],
+      "images": ["/spicy-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":7,
+      "name": "BBQ Burger",
+      "price": 10.49,
+      "rating": 4.7,
+      "description": "A tangy BBQ burger with onion rings and BBQ sauce.",
+      "howToMake": "Grill the beef patty, add BBQ sauce, top with onion rings, and assemble with bun.",
+      "ingredients": ["Beef patty", "BBQ sauce", "Onion rings", "Bun"],
+      "images": ["/bbq-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":8,
+      "name": "Mushroom Swiss Burger",
+      "price": 10.99,
+      "rating": 4.8,
+      "description": "A savory burger with sautéed mushrooms and Swiss cheese.",
+      "howToMake": "Grill the beef patty, sauté mushrooms, add Swiss cheese, and assemble with bun.",
+      "ingredients": ["Beef patty", "Mushrooms", "Swiss cheese", "Bun"],
+      "images": ["/mushroom-swiss-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":9,
+      "name": "Double Cheeseburger",
+      "price": 11.99,
+      "rating": 4.9,
+      "description": "A double stacked cheeseburger with extra cheese and toppings.",
+      "howToMake": "Grill two beef patties, add cheese on both, assemble with lettuce, tomato, and bun.",
+      "ingredients": ["Beef patties", "Cheese", "Lettuce", "Tomato", "Bun"],
+      "images": ["/double-cheese-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":10,
+      "name": "Avocado Burger",
+      "price": 10.49,
+      "rating": 4.6,
+      "description": "A healthy burger with fresh avocado slices.",
+      "howToMake": "Grill the beef patty, add fresh avocado slices, assemble with lettuce, tomato, and bun.",
+      "ingredients": ["Beef patty", "Avocado", "Lettuce", "Tomato", "Bun"],
+      "images": ["/avacado-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":11,
+      "name": "Turkey Burger",
+      "price": 9.99,
+      "rating": 4.5,
+      "description": "A lean turkey burger with cranberry sauce and stuffing.",
+      "howToMake": "Grill the turkey patty, add cranberry sauce and stuffing, assemble with bun.",
+      "ingredients": ["Turkey patty", "Cranberry sauce", "Stuffing", "Bun"],
+      "images": ["/turkey-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":12,
+      "name": "Fish Burger",
+      "price": 9.49,
+      "rating": 4.4,
+      "description": "A crispy fish fillet burger with tartar sauce and lettuce.",
+      "howToMake": "Fry the fish fillet, add tartar sauce, assemble with lettuce and bun.",
+      "ingredients": ["Fish fillet", "Tartar sauce", "Lettuce", "Bun"],
+      "images": ["/fish-burger.png"],
+      "categories":"burger"
+    },
+    {
+      "id":13,
+      "name": "Buffalo Chicken Burger",
+      "price": 10.49,
+      "rating": 4.7,
+      "description": "A spicy buffalo chicken burger with blue cheese dressing.",
+      "howToMake": "Grill the chicken patty, coat in buffalo sauce, add blue cheese dressing, and assemble with bun.",
+      "ingredients": ["Chicken patty", "Buffalo sauce", "Blue cheese dressing", "Bun"],
+      "images": ["/buffalo-chicken-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":14,
+      "name": "Hawaiian Burger",
+      "price": 10.99,
+      "rating": 4.8,
+      "description": "A tropical burger with pineapple, ham, and teriyaki sauce.",
+      "howToMake": "Grill the beef patty, add grilled pineapple and ham, coat with teriyaki sauce, and assemble with bun.",
+      "ingredients": ["Beef patty", "Pineapple", "Ham", "Teriyaki sauce", "Bun"],
+      "images": ["/hawaiian-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":15,
+      "name": "Mexican Burger",
+      "price": 10.49,
+      "rating": 4.6,
+      "description": "A spicy burger with guacamole, jalapenos, and salsa.",
+      "howToMake": "Grill the beef patty, add guacamole, jalapenos, and salsa, assemble with bun.",
+      "ingredients": ["Beef patty", "Guacamole", "Jalapenos", "Salsa", "Bun"],
+      "images": ["/mexican-burger.png"],
+      "categories":"burger"
+    },
+    {
+      "id":16,
+      "name": "Philly Cheesesteak Burger",
+      "price": 11.49,
+      "rating": 4.7,
+      "description": "A burger with shaved steak, onions, peppers, and provolone cheese.",
+      "howToMake": "Grill the beef patty, sauté shaved steak with onions and peppers, add provolone cheese, and assemble with bun.",
+      "ingredients": ["Beef patty", "Shaved steak", "Onions", "Peppers", "Provolone cheese", "Bun"],
+      "images": ["/philly-cheesesteak-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":17,
+      "name": "Greek Burger",
+      "price": 10.99,
+      "rating": 4.6,
+      "description": "A Mediterranean-inspired burger with feta cheese and tzatziki sauce.",
+      "howToMake": "Grill the beef patty, add feta cheese, top with tzatziki sauce, and assemble with bun.",
+      "ingredients": ["Beef patty", "Feta cheese", "Tzatziki sauce", "Bun"],
+      "images": ["/greek-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":18,
+      "name": "Swiss Mushroom Turkey Burger",
+      "price": 10.49,
+      "rating": 4.5,
+      "description": "A turkey burger with sautéed mushrooms and Swiss cheese.",
+      "howToMake": "Grill the turkey patty, sauté mushrooms, add Swiss cheese, and assemble with bun.",
+      "ingredients": ["Turkey patty", "Mushrooms", "Swiss cheese", "Bun"],
+      "images": ["/swiss-mushroom-turkey-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":19,
+      "name": "Teriyaki Chicken Burger",
+      "price": 10.49,
+      "rating": 4.6,
+      "description": "A chicken burger with teriyaki sauce and pineapple.",
+      "howToMake": "Grill the chicken patty, add teriyaki sauce and grilled pineapple, assemble with bun.",
+      "ingredients": ["Chicken patty", "Teriyaki sauce", "Pineapple", "Bun"],
+      "images": ["/teriyaki-chicken-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":20,
+      "name": "Pepper Jack Burger",
+      "price": 10.49,
+      "rating": 4.5,
+      "description": "A spicy burger with pepper jack cheese and jalapenos.",
+      "howToMake": "Grill the beef patty, add pepper jack cheese and jalapenos, assemble with bun.",
+      "ingredients": ["Beef patty", "Pepper jack cheese", "Jalapenos", "Bun"],
+      "images": ["/pepper-jack-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":21,
+      "name": "Black Bean Burger",
+      "price": 9.99,
+      "rating": 4.4,
+      "description": "A healthy black bean burger with avocado and salsa.",
+      "howToMake": "Cook the black bean patty, add avocado and salsa, assemble with bun.",
+      "ingredients": ["Black bean patty", "Avocado", "Salsa", "Bun"],
+      "images": ["/black-bean-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":22,
+      "name": "Blue Cheese Burger",
+      "price": 10.99,
+      "rating": 4.6,
+      "description": "A rich burger with blue cheese and caramelized onions.",
+      "howToMake": "Grill the beef patty, add blue cheese and caramelized onions, assemble with bun.",
+      "ingredients": ["Beef patty", "Blue cheese", "Caramelized onions", "Bun"],
+      "images": ["/blue-cheese-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":23,
+      "name": "Pulled Pork Burger",
+      "price": 10.99,
+      "rating": 4.7,
+      "description": "A hearty burger with pulled pork and coleslaw.",
+      "howToMake": "Grill the beef patty, add pulled pork and coleslaw, assemble with bun.",
+      "ingredients": ["Beef patty", "Pulled pork", "Coleslaw", "Bun"],
+      "images": ["/pulled-por-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":24,
+      "name": "Caprese Burger",
+      "price": 10.49,
+      "rating": 4.6,
+      "description": "A fresh burger with mozzarella, basil, and tomato.",
+      "howToMake": "Grill the beef patty, add mozzarella, basil, and tomato, assemble with bun.",
+      "ingredients": ["Beef patty", "Mozzarella", "Basil", "Tomato", "Bun"],
+      "images": ["/caprese-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":25,
+      "name": "Fried Egg Burger",
+      "price": 10.99,
+      "rating": 4.7,
+      "description": "A delicious burger with a fried egg and bacon.",
+      "howToMake": "Grill the beef patty, fry an egg, add bacon, assemble with bun.",
+      "ingredients": ["Beef patty", "Fried egg", "Bacon", "Bun"],
+      "images": ["/fried-egg-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":26,
+      "name": "Truffle Burger",
+      "price": 12.99,
+      "rating": 4.9,
+      "description": "A gourmet burger with truffle oil and mushrooms.",
+      "howToMake": "Grill the beef patty, sauté mushrooms in truffle oil, assemble with bun.",
+      "ingredients": ["Beef patty", "Truffle oil", "Mushrooms", "Bun"],
+      "images": ["/truffle-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":27,
+      "name": "Brie Burger",
+      "price": 11.99,
+      "rating": 4.8,
+      "description": "A luxurious burger with brie cheese and caramelized onions.",
+      "howToMake": "Grill the beef patty, add brie cheese and caramelized onions, assemble with bun.",
+      "ingredients": ["Beef patty", "Brie cheese", "Caramelized onions", "Bun"],
+      "images": ["/brie-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":28,
+      "name": "Kimchi Burger",
+      "price": 10.49,
+      "rating": 4.6,
+      "description": "A fusion burger with kimchi and spicy mayo.",
+      "howToMake": "Grill the beef patty, add kimchi and spicy mayo, assemble with bun.",
+      "ingredients": ["Beef patty", "Kimchi", "Spicy mayo", "Bun"],
+      "images": ["/kimchi-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+    {
+      "id":29,
+      "name": "Lamb Burger",
+      "price": 12.49,
+      "rating": 4.7,
+      "description": "A flavorful lamb burger with mint yogurt sauce.",
+      "howToMake": "Grill the lamb patty, add mint yogurt sauce, assemble with bun.",
+      "ingredients": ["Lamb patty", "Mint yogurt sauce", "Bun"],
+      "images": ["/lamb-burger-removebg-preview.png"],
+      "categories":"burger"
+    },
+      {
+        "id":30,
+        "name": "Falafel Burger",
+        "price": 9.49,
+        "rating": 4.4,
+        "description": "A vegetarian falafel burger with tahini sauce.",
+        "howToMake": "Cook the falafel patty, add tahini sauce, assemble with bun.",
+        "ingredients": ["Falafel patty", "Tahini sauce", "Bun"],
+        "images": ["/falafel-burger-removebg-preview.png"],
+        "categories":"burger"
+      },
+
+
+
+      {
+        "id": 31,
+        "name": "Margherita Pizza",
+        "price": 12.99,
+        "rating": 4.8,
+        "description": "Classic pizza with tomato sauce, mozzarella, and basil.",
+        "howToMake": "Spread tomato sauce on pizza base, add mozzarella, bake until crust is golden, garnish with basil.",
+        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Fresh basil"],
+        "images": ["/margherita-pizza-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+      {
+        "id": 32,
+        "name": "Pepperoni Pizza",
+        "price": 14.49,
+        "rating": 4.7,
+        "description": "Pizza topped with pepperoni slices and mozzarella cheese.",
+        "howToMake": "Spread tomato sauce on pizza base, add pepperoni slices, cover with mozzarella, bake until golden.",
+        "ingredients": ["Pizza dough", "Tomato sauce", "Pepperoni", "Mozzarella cheese"],
+        "images": ["/pepperoni-pizza-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+      {
+        "id": 33,
+        "name": "Pesto Pasta",
+        "price": 11.99,
+        "rating": 4.6,
+        "description": "Pasta with homemade basil pesto sauce.",
+        "howToMake": "Cook pasta al dente, toss with basil pesto sauce, garnish with grated Parmesan.",
+        "ingredients": ["Pasta", "Basil pesto sauce", "Parmesan cheese"],
+        "images": ["/pesto-pasta-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+      {
+        "id": 34,
+        "name": "Spaghetti Carbonara",
+        "price": 13.99,
+        "rating": 4.7,
+        "description": "Italian pasta dish with creamy egg and Parmesan sauce, bacon.",
+        "howToMake": "Cook spaghetti al dente, toss with egg-Parmesan sauce, bacon, serve hot.",
+        "ingredients": ["Spaghetti", "Egg", "Parmesan cheese", "Bacon"],
+        "images": ["/spaghetti-carbonara-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+      {
+        "id": 35,
+        "name": "Ravioli with Tomato Sauce",
+        "price": 15.49,
+        "rating": 4.5,
+        "description": "Homemade ravioli stuffed with cheese, served with tomato sauce.",
+        "howToMake": "Boil ravioli until tender, serve with tomato sauce, garnish with basil.",
+        "ingredients": ["Ravioli pasta", "Cheese", "Tomato sauce", "Basil"],
+        "images": ["/ravioli-tomato-sauce-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+      {
+        "id": 36,
+        "name": "Seafood Linguine",
+        "price": 17.99,
+        "rating": 4.6,
+        "description": "Linguine pasta with assorted seafood in white wine sauce.",
+        "howToMake": "Cook linguine al dente, sauté seafood in white wine sauce, toss with pasta, serve hot.",
+        "ingredients": ["Linguine pasta", "Assorted seafood", "White wine", "Garlic"],
+        "images": ["/seafood-linguine-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+      {
+        "id": 37,
+        "name": "Four Cheese Pizza",
+        "price": 16.99,
+        "rating": 4.8,
+        "description": "Pizza topped with mozzarella, Parmesan, Gorgonzola, and ricotta cheeses.",
+        "howToMake": "Spread pizza dough with tomato sauce, add cheeses, bake until bubbly and golden.",
+        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Parmesan cheese", "Gorgonzola cheese", "Ricotta cheese"],
+        "images": ["/four-cheese-pizza-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+      {
+        "id": 38,
+        "name": "Penne Arrabbiata",
+        "price": 12.49,
+        "rating": 4.5,
+        "description": "Penne pasta in spicy tomato sauce with garlic and chili flakes.",
+        "howToMake": "Cook penne al dente, sauté garlic and chili flakes in olive oil, add tomato sauce, toss with pasta, serve hot.",
+        "ingredients": ["Penne pasta", "Tomato sauce", "Garlic", "Chili flakes"],
+        "images": ["/penne-arrabbiata-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+      {
+        "id": 39,
+        "name": "Caprese Salad",
+        "price": 10.99,
+        "rating": 4.6,
+        "description": "Fresh salad with tomatoes, mozzarella, basil, and balsamic glaze.",
+        "howToMake": "Slice tomatoes and mozzarella, arrange on plate, garnish with basil leaves, drizzle with balsamic glaze.",
+        "ingredients": ["Tomatoes", "Mozzarella cheese", "Basil", "Balsamic glaze"],
+        "images": ["/caprese-salad-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+      {
+        "id": 40,
+        "name": "Vegetable Lasagna",
+        "price": 14.99,
+        "rating": 4.7,
+        "description": "Layered lasagna with vegetables, ricotta, and marinara sauce.",
+        "howToMake": "Layer lasagna noodles with vegetables, ricotta cheese, marinara sauce, bake until bubbly.",
+        "ingredients": ["Lasagna noodles", "Ricotta cheese", "Marinara sauce", "Vegetables"],
+        "images": ["/vegetable-lasagna-image.png"],
+        "categories": "pizza_&_pastas"
+      },
+
+
+
+
+
+      {
+        "id": 41,
+        "name": "Classic Hotdog",
+        "price": 5.99,
+        "rating": 4.5,
+        "description": "Grilled sausage in a bun with ketchup and mustard.",
+        "howToMake": "Grill sausage, place in bun, add ketchup and mustard, serve hot.",
+        "ingredients": ["Hotdog sausage", "Hotdog bun", "Ketchup", "Mustard"],
+        "images": ["/classic-hotdog-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+      {
+        "id": 42,
+        "name": "Nachos with Cheese",
+        "price": 7.99,
+        "rating": 4.4,
+        "description": "Tortilla chips topped with melted cheese, jalapenos, and salsa.",
+        "howToMake": "Arrange tortilla chips on a plate, melt cheese, add jalapenos and salsa, serve.",
+        "ingredients": ["Tortilla chips", "Cheese", "Jalapenos", "Salsa"],
+        "images": ["/nachos-with-cheese-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+      {
+        "id": 43,
+        "name": "Chicken Wings",
+        "price": 9.49,
+        "rating": 4.6,
+        "description": "Crispy chicken wings with barbecue sauce.",
+        "howToMake": "Coat chicken wings in barbecue sauce, bake until crispy, serve hot.",
+        "ingredients": ["Chicken wings", "Barbecue sauce"],
+        "images": ["/chicken-wings-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+      {
+        "id": 44,
+        "name": "Potato Wedges",
+        "price": 6.99,
+        "rating": 4.4,
+        "description": "Seasoned potato wedges baked until crispy.",
+        "howToMake": "Cut potatoes into wedges, toss with olive oil and seasoning, bake until golden brown.",
+        "ingredients": ["Potatoes", "Olive oil", "Seasoning"],
+        "images": ["/potato-wedges-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+      {
+        "id": 45,
+        "name": "Mozzarella Sticks",
+        "price": 8.49,
+        "rating": 4.5,
+        "description": "Breaded mozzarella sticks fried until golden and served with marinara sauce.",
+        "howToMake": "Coat mozzarella sticks in breadcrumbs, fry until golden brown, serve with marinara sauce.",
+        "ingredients": ["Mozzarella cheese", "Breadcrumbs", "Marinara sauce"],
+        "images": ["/mozzarella-sticks-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+      {
+        "id": 46,
+        "name": "Onion Rings",
+        "price": 6.49,
+        "rating": 4.3,
+        "description": "Crunchy onion rings battered and fried until golden.",
+        "howToMake": "Slice onions into rings, dip in batter, fry until crispy, serve hot.",
+        "ingredients": ["Onions", "Batter"],
+        "images": ["/onion-rings-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+      {
+        "id": 47,
+        "name": "Garlic Bread",
+        "price": 4.99,
+        "rating": 4.2,
+        "description": "Toasted bread with garlic butter and herbs.",
+        "howToMake": "Spread garlic butter on bread, sprinkle with herbs, toast until golden brown.",
+        "ingredients": ["Bread", "Garlic butter", "Herbs"],
+        "images": ["/garlic-bread-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+      {
+        "id": 48,
+        "name": "Stuffed Jalapenos",
+        "price": 7.99,
+        "rating": 4.4,
+        "description": "Jalapeno peppers stuffed with cream cheese and wrapped in bacon.",
+        "howToMake": "Fill jalapeno halves with cream cheese, wrap with bacon, bake until bacon is crispy.",
+        "ingredients": ["Jalapeno peppers", "Cream cheese", "Bacon"],
+        "images": ["/stuffed-jalapenos-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+      {
+        "id": 49,
+        "name": "Bruschetta",
+        "price": 5.49,
+        "rating": 4.3,
+        "description": "Toasted bread topped with tomatoes, garlic, and basil.",
+        "howToMake": "Toast bread slices, top with diced tomatoes, garlic, basil, drizzle with olive oil.",
+        "ingredients": ["Bread", "Tomatoes", "Garlic", "Basil", "Olive oil"],
+        "images": ["/bruschetta-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+      {
+        "id": 50,
+        "name": "BBQ Ribs",
+        "price": 13.99,
+        "rating": 4.6,
+        "description": "Slow-cooked barbecue ribs served with coleslaw and fries.",
+        "howToMake": "Season ribs, slow-cook in barbecue sauce, serve with coleslaw and fries.",
+        "ingredients": ["Pork ribs", "Barbecue sauce", "Coleslaw", "Fries"],
+        "images": ["/bbq-ribs-image.png"],
+        "categories": "hotdog_and_snacks"
+      },
+
+
+
+
+      {
+        "id": 51,
+        "name": "Grilled Ribeye Steak",
+        "price": 24.99,
+        "rating": 4.9,
+        "description": "Juicy ribeye steak grilled to perfection.",
+        "howToMake": "Season steak, grill to desired doneness, rest before serving.",
+        "ingredients": ["Ribeye steak", "Salt", "Pepper", "Butter"],
+        "images": ["/grilled-ribeye-steak-image.png"],
+        "categories": "meat_&_fish"
+      },
+      {
+        "id": 52,
+        "name": "Crispy Fried Chicken",
+        "price": 13.99,
+        "rating": 4.6,
+        "description": "Crispy fried chicken served with coleslaw and fries.",
+        "howToMake": "Coat chicken in seasoned flour, deep fry until golden brown, serve hot.",
+        "ingredients": ["Chicken pieces", "Flour", "Oil", "Coleslaw", "Fries"],
+        "images": ["/crispy-fried-chicken-image.png"],
+        "categories": "meat_&_fish"
+      },
+      {
+        "id": 53,
+        "name": "Salmon Fillet",
+        "price": 18.49,
+        "rating": 4.7,
+        "description": "Grilled salmon fillet served with lemon butter sauce.",
+        "howToMake": "Season salmon, grill until flaky, serve with lemon butter sauce.",
+        "ingredients": ["Salmon fillet", "Lemon", "Butter", "Salt", "Pepper"],
+        "images": ["/salmon-fillet-image.png"],
+        "categories": "meat_&_fish"
+      },
+      {
+        "id": 54,
+        "name": "Beef Burger",
+        "price": 11.99,
+        "rating": 4.5,
+        "description": "Classic beef burger with lettuce, tomato, and cheese.",
+        "howToMake": "Grill beef patty, assemble with lettuce, tomato, cheese, serve in bun.",
+        "ingredients": ["Beef patty", "Lettuce", "Tomato", "Cheese", "Burger bun"],
+        "images": ["/beef-burger-image.png"],
+        "categories": "meat_&_fish"
+      },
+      {
+        "id": 55,
+        "name": "Shrimp Scampi",
+        "price": 16.99,
+        "rating": 4.6,
+        "description": "Sautéed shrimp in garlic butter sauce served over pasta.",
+        "howToMake": "Sauté shrimp in garlic butter, toss with pasta, garnish with parsley, serve hot.",
+        "ingredients": ["Shrimp", "Garlic", "Butter", "Pasta", "Parsley"],
+        "images": ["/shrimp-scampi-image.png"],
+        "categories": "meat_&_fish"
+      },
+      {
+        "id": 56,
+        "name": "Fish Tacos",
+        "price": 14.49,
+        "rating": 4.5,
+        "description": "Soft tacos filled with grilled fish, cabbage slaw, and avocado.",
+        "howToMake": "Grill fish, assemble tacos with slaw, avocado, serve with lime wedges.",
+        "ingredients": ["Fish fillet", "Tortillas", "Cabbage", "Avocado", "Lime"],
+        "images": ["/fish-tacos-image.png"],
+        "categories": "meat_&_fish"
+      },
+      {
+        "id": 57,
+        "name": "Lamb Gyros",
+        "price": 17.99,
+        "rating": 4.7,
+        "description": "Greek-style lamb gyro wrap with tzatziki sauce.",
+        "howToMake": "Grill lamb, wrap in pita with tzatziki sauce, lettuce, tomato, onion.",
+        "ingredients": ["Lamb", "Pita bread", "Tzatziki sauce", "Lettuce", "Tomato", "Onion"],
+        "images": ["/lamb-gyros-image.png"],
+        "categories": "meat_&_fish"
+      },
+      {
+        "id": 58,
+        "name": "Pork Schnitzel",
+        "price": 15.99,
+        "rating": 4.6,
+        "description": "Breaded and fried pork cutlet served with mashed potatoes.",
+        "howToMake": "Coat pork cutlet in breadcrumbs, fry until golden, serve with mashed potatoes.",
+        "ingredients": ["Pork cutlet", "Breadcrumbs", "Egg", "Mashed potatoes"],
+        "images": ["/pork-schnitzel-image.png"],
+        "categories": "meat_&_fish"
+      },
+      {
+        "id": 59,
+        "name": "Beef Kebabs",
+        "price": 13.49,
+        "rating": 4.5,
+        "description": "Grilled beef kebabs marinated in Mediterranean spices.",
+        "howToMake": "Marinate beef chunks, skewer with vegetables, grill until beef is cooked through.",
+        "ingredients": ["Beef chunks", "Bell peppers", "Onion", "Mediterranean spices"],
+        "images": ["/beef-kebabs-image.png"],
+        "categories": "meat_&_fish"
+      },
+      {
+        "id": 60,
+        "name": "Chicken Alfredo",
+        "price": 12.99,
+        "rating": 4.4,
+        "description": "Creamy Alfredo sauce with grilled chicken over fettuccine pasta.",
+        "howToMake": "Cook fettuccine al dente, toss with Alfredo sauce, grilled chicken, garnish with parsley.",
+        "ingredients": ["Fettuccine pasta", "Alfredo sauce", "Chicken breast", "Parsley"],
+        "images": ["/chicken-alfredo-image.png"],
+        "categories": "meat_&_fish"
+      },
+
+
+
+
+      {
+        "id": 61,
+        "name": "Lasagna",
+        "price": 16.99,
+        "rating": 4.7,
+        "description": "Layers of pasta with Bolognese sauce, ricotta, and mozzarella cheese.",
+        "howToMake": "Layer pasta with Bolognese sauce, ricotta, mozzarella, bake until cheese is bubbly.",
+        "ingredients": ["Lasagna noodles", "Bolognese sauce", "Ricotta cheese", "Mozzarella cheese"],
+        "images": ["/lasagna-image.png"],
+        "categories": "popular_dishes"
+      },
+      {
+        "id": 62,
+        "name": "Sushi Platter",
+        "price": 18.99,
+        "rating": 4.6,
+        "description": "Assorted sushi rolls with soy sauce, pickled ginger, and wasabi.",
+        "howToMake": "Prepare sushi rice, roll with assorted fillings, slice into pieces, serve with soy sauce, ginger, and wasabi.",
+        "ingredients": ["Sushi rice", "Assorted seafood", "Nori", "Soy sauce", "Pickled ginger", "Wasabi"],
+        "images": ["/sushi-platter-image.png"],
+        "categories": "popular_dishes"
+      },
+      {
+        "id": 63,
+        "name": "Pad Thai",
+        "price": 14.49,
+        "rating": 4.5,
+        "description": "Thai stir-fried noodles with shrimp, tofu, peanuts, and tamarind sauce.",
+        "howToMake": "Stir-fry noodles with shrimp, tofu, peanuts, tamarind sauce, garnish with lime and cilantro.",
+        "ingredients": ["Rice noodles", "Shrimp", "Tofu", "Peanuts", "Tamarind sauce"],
+        "images": ["/pad-thai-image.png"],
+        "categories": "popular_dishes"
+      },
+      {
+        "id": 64,
+        "name": "Chicken Tikka Masala",
+        "price": 15.99,
+        "rating": 4.6,
+        "description": "Indian dish with grilled chicken in creamy tomato sauce.",
+        "howToMake": "Grill chicken, simmer in creamy tomato sauce with spices, serve hot.",
+        "ingredients": ["Chicken thighs", "Tomato sauce", "Cream", "Indian spices"],
+        "images": ["/chicken-tikka-masala-image.png"],
+        "categories": "popular_dishes"
+      },
+      {
+        "id": 65,
+        "name": "Ramen Bowl",
+        "price": 12.99,
+        "rating": 4.5,
+        "description": "Japanese noodle soup with pork belly, egg, and vegetables.",
+        "howToMake": "Cook ramen noodles, top with pork belly, egg, vegetables, serve in broth.",
+        "ingredients": ["Ramen noodles", "Pork belly", "Egg", "Vegetables", "Broth"],
+        "images": ["/ramen-bowl-image.png"],
+        "categories": "popular_dishes"
+      },
+      {
+        "id": 66,
+        "name": "Beef Wellington",
+        "price": 22.99,
+        "rating": 4.8,
+        "description": "Beef tenderloin coated with mushrooms and wrapped in puff pastry.",
+        "howToMake": "Sear beef, wrap with mushroom duxelles in puff pastry, bake until golden brown.",
+        "ingredients": ["Beef tenderloin", "Mushrooms", "Puff pastry"],
+        "images": ["/beef-wellington-image.png"],
+        "categories": "popular_dishes"
+      },
+      {
+        "id": 67,
+        "name": "Quinoa Salad",
+        "price": 11.49,
+        "rating": 4.5,
+        "description": "Healthy salad with quinoa, avocado, cherry tomatoes, and balsamic vinaigrette.",
+        "howToMake": "Cook quinoa, toss with avocado, tomatoes, vinaigrette, garnish with parsley.",
+        "ingredients": ["Quinoa", "Avocado", "Cherry tomatoes", "Balsamic vinaigrette", "Parsley"],
+        "images": ["/quinoa-salad-image.png"],
+        "categories": "popular_dishes"
+      },
+      {
+        "id": 68,
+        "name": "Tacos al Pastor",
+        "price": 13.99,
+        "rating": 4.6,
+        "description": "Mexican tacos with marinated pork, pineapple, and cilantro.",
+        "howToMake": "Marinate pork, grill with pineapple, serve in tortillas with cilantro, onion.",
+        "ingredients": ["Pork shoulder", "Pineapple", "Tortillas", "Cilantro", "Onion"],
+        "images": ["/tacos-al-pastor-image.png"],
+        "categories": "popular_dishes"
+      },
+      {
+        "id": 69,
+        "name": "Mushroom Risotto",
+        "price": 14.99,
+        "rating": 4.7,
+        "description": "Creamy Italian risotto with mushrooms and Parmesan cheese.",
+        "howToMake": "Sauté mushrooms, cook risotto with broth, finish with Parmesan cheese.",
+        "ingredients": ["Arborio rice", "Mushrooms", "Chicken broth", "Parmesan cheese"],
+        "images": ["/mushroom-risotto-image.png"],
+        "categories": "popular_dishes"
+      },
+      {
+        "id": 70,
+        "name": "Eggplant Parmesan",
+        "price": 12.99,
+        "rating": 4.6,
+        "description": "Breaded eggplant slices baked with marinara sauce and mozzarella cheese.",
+        "howToMake": "Bread eggplant slices, bake with marinara sauce, mozzarella until cheese melts.",
+        "ingredients": ["Eggplant", "Marinara sauce", "Mozzarella cheese", "Breadcrumbs"],
+        "images": ["/eggplant-parmesan-image.png"],
+        "categories": "popular_dishes"
+      },
+
+
+
+
+      {
+        "id": 71,
+        "name": "Green Curry Chicken",
+        "price": 15.99,
+        "rating": 4.6,
+        "description": "Thai green curry with chicken, bamboo shoots, and basil.",
+        "howToMake": "Simmer chicken in green curry paste, add coconut milk, bamboo shoots, basil, serve hot.",
+        "ingredients": ["Chicken thighs", "Green curry paste", "Coconut milk", "Bamboo shoots", "Basil"],
+        "images": ["/green-curry-chicken-image.png"],
+        "categories": "Thai_dishes"
+      },
+      {
+        "id": 72,
+        "name": "Pad See Ew",
+        "price": 14.49,
+        "rating": 4.5,
+        "description": "Stir-fried rice noodles with chicken, broccoli, and sweet soy sauce.",
+        "howToMake": "Stir-fry chicken with rice noodles, broccoli, soy sauce, garnish with lime.",
+        "ingredients": ["Rice noodles", "Chicken breast", "Broccoli", "Sweet soy sauce", "Lime"],
+        "images": ["/pad-see-ew-image.png"],
+        "categories": "Thai_dishes"
+      },
+      {
+        "id": 73,
+        "name": "Tom Yum Soup",
+        "price": 12.99,
+        "rating": 4.4,
+        "description": "Spicy Thai soup with shrimp, lemongrass, and lime.",
+        "howToMake": "Simmer shrimp in broth with lemongrass, lime leaves, chili, serve hot.",
+        "ingredients": ["Shrimp", "Lemongrass", "Lime leaves", "Chili", "Broth"],
+        "images": ["/tom-yum-soup-image.png"],
+        "categories": "Thai_dishes"
+      },
+      {
+        "id": 74,
+        "name": "Massaman Curry",
+        "price": 16.49,
+        "rating": 4.7,
+        "description": "Thai curry with beef, potatoes, peanuts, and coconut milk.",
+        "howToMake": "Simmer beef with Massaman curry paste, coconut milk, potatoes, peanuts, serve hot.",
+        "ingredients": ["Beef stew meat", "Massaman curry paste", "Coconut milk", "Potatoes", "Peanuts"],
+        "images": ["/massaman-curry-image.png"],
+        "categories": "Thai_dishes"
+      },
+      {
+        "id": 75,
+        "name": "Papaya Salad",
+        "price": 10.99,
+        "rating": 4.3,
+        "description": "Thai salad with shredded green papaya, tomatoes, peanuts, and lime dressing.",
+        "howToMake": "Shred papaya, toss with tomatoes, peanuts, lime dressing, garnish with cilantro.",
+        "ingredients": ["Green papaya", "Tomatoes", "Peanuts", "Lime", "Cilantro"],
+        "images": ["/papaya-salad-image.png"],
+        "categories": "Thai_dishes"
+      },
+      {
+        "id": 76,
+        "name": "Thai Iced Tea",
+        "price": 5.49,
+        "rating": 4.2,
+        "description": "Sweet Thai iced tea with condensed milk.",
+        "howToMake": "Brew Thai tea, pour over ice, sweeten with condensed milk, serve cold.",
+        "ingredients": ["Thai tea leaves", "Condensed milk", "Ice"],
+        "images": ["/thai-iced-tea-image.png"],
+        "categories": "Thai_dishes"
+      },
+      {
+        "id": 77,
+        "name": "Red Curry Beef",
+        "price": 17.49,
+        "rating": 4.6,
+        "description": "Spicy Thai red curry with beef, bell peppers, and basil.",
+        "howToMake": "Simmer beef in red curry paste, coconut milk, bell peppers, basil, serve hot.",
+        "ingredients": ["Beef sirloin", "Red curry paste", "Coconut milk", "Bell peppers", "Basil"],
+        "images": ["/red-curry-beef-image.png"],
+        "categories": "Thai_dishes"
+      },
+      {
+        "id": 78,
+        "name": "Chicken Satay",
+        "price": 11.99,
+        "rating": 4.5,
+        "description": "Grilled chicken skewers with peanut sauce.",
+        "howToMake": "Marinate chicken, grill skewers, serve with peanut sauce, cucumber salad.",
+        "ingredients": ["Chicken thighs", "Peanut sauce", "Cucumber", "Rice"],
+        "images": ["/chicken-satay-image.png"],
+        "categories": "Thai_dishes"
+      },
+      {
+        "id": 79,
+        "name": "Thai Green Papaya Salad",
+        "price": 10.49,
+        "rating": 4.4,
+        "description": "Shredded green papaya, tomatoes, green beans, peanuts, and dried shrimp in a spicy lime dressing.",
+        "howToMake": "Shred green papaya, tomatoes, green beans, peanuts, dried shrimp, and mix in spicy lime dressing.",
+        "ingredients": ["Green papaya", "Tomatoes", "Green beans", "Peanuts", "Dried shrimp"],
+        "images": ["/thai-green-papaya-salad-image.png"],
+        "categories": "Thai_dishes"
+      },
+      {
+        "id": 80,
+        "name": "Thai Mango Sticky Rice",
+        "price": 7.99,
+        "rating": 4.3,
+        "description": "Sweet sticky rice topped with ripe mango slices and drizzled with coconut sauce.",
+        "howToMake": "Cook sticky rice, slice ripe mango, drizzle coconut sauce, and serve.",
+        "ingredients": ["Sticky rice", "Ripe mango", "Coconut sauce"],
+        "images": ["/thai-mango-sticky-rice-image.png"],
+        "categories": "Thai_dishes"
+      },
+
+
+
+
+      {
+        "id": 81,
+        "name": "Espresso",
+        "price": 2.99,
+        "rating": 4.4,
+        "description": "Strong black coffee made by forcing steam through finely-ground coffee beans.",
+        "howToMake": "Brew a shot of espresso using an espresso machine.",
+        "ingredients": ["Coffee beans"],
+        "images": ["/espresso-image.png"],
+        "categories": "coffees"
+      },
+      {
+        "id": 82,
+        "name": "Cappuccino",
+        "price": 3.99,
+        "rating": 4.5,
+        "description": "Espresso with frothy steamed milk and a sprinkle of cocoa powder.",
+        "howToMake": "Brew a shot of espresso, steam milk to create froth, combine with espresso, sprinkle cocoa powder.",
+        "ingredients": ["Espresso", "Milk", "Cocoa powder"],
+        "images": ["/cappuccino-image.png"],
+        "categories": "coffees"
+      },
+      {
+        "id": 83,
+        "name": "Latte",
+        "price": 4.49,
+        "rating": 4.6,
+        "description": "Espresso with steamed milk and a small amount of froth.",
+        "howToMake": "Brew a shot of espresso, steam milk to create a small amount of froth, combine with espresso.",
+        "ingredients": ["Espresso", "Milk"],
+        "images": ["/latte-image.png"],
+        "categories": "coffees"
+      },
+      {
+        "id": 84,
+        "name": "Macchiato",
+        "price": 3.49,
+        "rating": 4.3,
+        "description": "Espresso 'stained' with a small amount of steamed milk.",
+        "howToMake": "Brew a shot of espresso, add a small amount of steamed milk.",
+        "ingredients": ["Espresso", "Steamed milk"],
+        "images": ["/macchiato-image.png"],
+        "categories": "coffees"
+      },
+      {
+        "id": 85,
+        "name": "Americano",
+        "price": 3.29,
+        "rating": 4.2,
+        "description": "Espresso diluted with hot water, similar strength to drip coffee.",
+        "howToMake": "Brew a shot of espresso, add hot water to dilute.",
+        "ingredients": ["Espresso", "Hot water"],
+        "images": ["/americano-image.png"],
+        "categories": "coffees"
+      },
+      {
+        "id": 86,
+        "name": "Mocha",
+        "price": 4.99,
+        "rating": 4.4,
+        "description": "Espresso with steamed milk, chocolate syrup, and whipped cream.",
+        "howToMake": "Brew a shot of espresso, steam milk, mix with chocolate syrup, top with whipped cream.",
+        "ingredients": ["Espresso", "Milk", "Chocolate syrup", "Whipped cream"],
+        "images": ["/mocha-image.png"],
+        "categories": "coffees"
+      },
+      {
+        "id": 87,
+        "name": "Iced Coffee",
+        "price": 3.79,
+        "rating": 4.1,
+        "description": "Chilled coffee with ice cubes.",
+        "howToMake": "Brew coffee, chill, serve over ice cubes.",
+        "ingredients": ["Coffee"],
+        "images": ["/iced-coffee-image.png"],
+        "categories": "coffees"
+      },
+      {
+        "id": 88,
+        "name": "Affogato",
+        "price": 4.99,
+        "rating": 4.5,
+        "description": "Vanilla gelato 'drowned' with a shot of hot espresso.",
+        "howToMake": "Place a scoop of vanilla gelato in a cup, pour a shot of hot espresso over it.",
+        "ingredients": ["Espresso", "Vanilla gelato"],
+        "images": ["/affogato-image.png"],
+        "categories": "coffees"
+      },
+      {
+        "id": 89,
+        "name": "Flat White",
+        "price": 4.49,
+        "rating": 4.4,
+        "description": "Espresso with velvety steamed milk, less frothy than a cappuccino.",
+        "howToMake": "Brew a shot of espresso, steam milk to create velvety texture, combine with espresso.",
+        "ingredients": ["Espresso", "Steamed milk"],
+        "images": ["/flat-white-image.png"],
+        "categories": "coffees"
+      },
+      {
+        "id": 90,
+        "name": "Turkish Coffee",
+        "price": 4.79,
+        "rating": 4.3,
+        "description": "Strong coffee brewed by boiling finely ground coffee beans with water and sugar.",
+        "howToMake": "Boil finely ground coffee beans with water and sugar, pour into a cup without filtering.",
+        "ingredients": ["Coffee beans", "Water", "Sugar"],
+        "images": ["/turkish-coffee-image.png"],
+        "categories": "coffees"
+      },
+
+
+
+
+
+      {
+        "id": 91,
+        "name": "Green Tea",
+        "price": 2.99,
+        "rating": 4.2,
+        "description": "Light and refreshing tea made from unfermented tea leaves.",
+        "howToMake": "Steep green tea leaves in hot water for a few minutes, strain and serve.",
+        "ingredients": ["Green tea leaves", "Hot water"],
+        "images": ["/green-tea-image.png"],
+        "categories": "teas"
+      },
+      {
+        "id": 92,
+        "name": "Black Tea",
+        "price": 2.99,
+        "rating": 4.1,
+        "description": "Full-bodied tea made from fully oxidized tea leaves.",
+        "howToMake": "Steep black tea leaves in hot water for a few minutes, strain and serve.",
+        "ingredients": ["Black tea leaves", "Hot water"],
+        "images": ["/black-tea-image.png"],
+        "categories": "teas"
+      },
+      {
+        "id": 93,
+        "name": "Earl Grey",
+        "price": 3.49,
+        "rating": 4.3,
+        "description": "Black tea flavored with oil of bergamot.",
+        "howToMake": "Steep black tea leaves with oil of bergamot in hot water, strain and serve.",
+        "ingredients": ["Black tea leaves", "Oil of bergamot", "Hot water"],
+        "images": ["/earl-grey-image.png"],
+        "categories": "teas"
+      },
+      {
+        "id": 94,
+        "name": "Chai Tea",
+        "price": 3.49,
+        "rating": 4.4,
+        "description": "Spiced black tea with milk and sugar.",
+        "howToMake": "Boil black tea with spices, add milk and sugar, strain and serve.",
+        "ingredients": ["Black tea leaves", "Spices", "Milk", "Sugar"],
+        "images": ["/chai-tea-image.png"],
+        "categories": "teas"
+      },
+      {
+        "id": 95,
+        "name": "Oolong Tea",
+        "price": 3.99,
+        "rating": 4.2,
+        "description": "Traditional Chinese tea with a sweet and floral aroma.",
+        "howToMake": "Steep oolong tea leaves in hot water for a few minutes, strain and serve.",
+        "ingredients": ["Oolong tea leaves", "Hot water"],
+        "images": ["/oolong-tea-image.png"],
+        "categories": "teas"
+      },
+      {
+        "id": 96,
+        "name": "Jasmine Tea",
+        "price": 3.49,
+        "rating": 4.3,
+        "description": "Green tea scented with jasmine flowers.",
+        "howToMake": "Steep green tea leaves with jasmine flowers in hot water, strain and serve.",
+        "ingredients": ["Green tea leaves", "Jasmine flowers", "Hot water"],
+        "images": ["/jasmine-tea-image.png"],
+        "categories": "teas"
+      },
+      {
+        "id": 97,
+        "name": "Peppermint Tea",
+        "price": 3.29,
+        "rating": 4.1,
+        "description": "Herbal tea made from peppermint leaves.",
+        "howToMake": "Steep peppermint leaves in hot water for a few minutes, strain and serve.",
+        "ingredients": ["Peppermint leaves", "Hot water"],
+        "images": ["/peppermint-tea-image.png"],
+        "categories": "teas"
+      },
+      {
+        "id": 98,
+        "name": "Chamomile Tea",
+        "price": 3.29,
+        "rating": 4.2,
+        "description": "Herbal tea made from dried chamomile flowers.",
+        "howToMake": "Steep dried chamomile flowers in hot water for a few minutes, strain and serve.",
+        "ingredients": ["Dried chamomile flowers", "Hot water"],
+        "images": ["/chamomile-tea-image.png"],
+        "categories": "teas"
+      },
+      {
+        "id": 99,
+        "name": "Rooibos Tea",
+        "price": 3.49,
+        "rating": 4.3,
+        "description": "Red herbal tea with a slightly sweet and nutty flavor.",
+        "howToMake": "Steep rooibos tea leaves in hot water for a few minutes, strain and serve.",
+        "ingredients": ["Rooibos tea leaves", "Hot water"],
+        "images": ["/rooibos-tea-image.png"],
+        "categories": "teas"
+      },
+      {
+        "id": 100,
+        "name": "Hibiscus Tea",
+        "price": 3.29,
+        "rating": 4.1,
+        "description": "Herbal tea made from dried hibiscus flowers.",
+        "howToMake": "Steep dried hibiscus flowers in hot water for a few minutes, strain and serve.",
+        "ingredients": ["Dried hibiscus flowers", "Hot water"],
+        "images": ["/hibiscus-tea-image.png"],
+        "categories": "teas"
+      }
+  ]
+  
