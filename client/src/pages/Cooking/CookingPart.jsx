@@ -1,9 +1,9 @@
 import React, { useContext, useMemo, useState } from "react";
-import { ShopContext } from "../../../context/ShopContext";
-import Category from "./Category";
-import List from "./List";
+import { ShopContext } from "../../context/ShopContext";
+import CookList from "./CookList";
+import CookCategory from "./CookCategory";
 
-const ProductList = () => {
+const CookingPart = () => {
   const { products } = useContext(ShopContext);
   const [selectedCategory, setSelectedCategory] = useState("burger");
   const [searchQuery, setSearchQuery] = useState("");
@@ -40,7 +40,9 @@ const ProductList = () => {
   const filteredProducts = useMemo(() => {
     let filtered = products;
     if (selectedCategory !== "All") {
-      filtered = filtered.filter((product) => product.categories === selectedCategory);
+      filtered = filtered.filter(
+        (product) => product.categories === selectedCategory
+      );
     }
     if (searchQuery) {
       filtered = filtered.filter((product) =>
@@ -69,13 +71,12 @@ const ProductList = () => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     return filteredProducts.slice(startIndex, startIndex + itemsPerPage);
   }, [currentPage, filteredProducts]);
-  
   return (
     <div className=" w-[100%] flex items-center justify-start  gap-10">
       {/* <span className='text-[45px] font-bold'>Shops</span>  */}
       <div className="flex justify-between items-start w-[100%] mt-[140px] px-9 ">
         <div className="w-[80%]">
-          <List
+          <CookList
             products={paginatedProducts}
             currentPage={currentPage}
             totalPages={Math.ceil(filteredProducts.length / itemsPerPage)}
@@ -83,7 +84,7 @@ const ProductList = () => {
           />
         </div>
         <div className="bg-white w-[250px] rounded-lg mt-8">
-          <Category
+          <CookCategory
             onCategoryClick={handleCategoryClick}
             onSearchChange={handleSearchChange}
             onSuggestionClick={handleSuggestionClick}
@@ -97,4 +98,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default CookingPart;

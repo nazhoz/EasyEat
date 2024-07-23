@@ -1,8 +1,11 @@
 import React from 'react'
+import CookingPart from '../../pages/Cooking/CookingPart'
 
 const Cooking = () => {
   return (
-    <div>Cooking</div>
+    <div className="bg-customerBackroundColor"> 
+      <CookingPart/>
+    </div>
   )
 }
 

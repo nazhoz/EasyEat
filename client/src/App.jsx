@@ -7,6 +7,8 @@ import Cooking from "./components/Cooking/Cooking";
 import Contact from "./components/Contact/Contact";
 import Cart from "./components/Cart/Cart";
 import SingleListView from "./pages/products/productsList/SingleListView";
+import CookView from "./pages/Cooking/CookView";
+import Footer from "./pages/Footer/Footer";
 
 const App = () => {
   return (
@@ -19,8 +21,10 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/productview/:id" element={<SingleListView />} />
+          <Route path="/cookview/:id" element={<CookView />} />
         </Route>
       </Routes>
+      <Footer/>
     </>
   );
 };

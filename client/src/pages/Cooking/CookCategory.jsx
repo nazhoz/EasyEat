@@ -1,6 +1,6 @@
 import React from "react";
 
-const Category = ({
+const CookCategory = ({
   onCategoryClick,
   onSearchChange,
   onSuggestionClick,
@@ -65,4 +65,4 @@ const Category = ({
   );
 };
 
-export default Category;
+export default CookCategory;

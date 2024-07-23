@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-import { RiSearchLine, RiShoppingBag2Line } from "react-icons/ri";
+import { RiShoppingBag2Line } from "react-icons/ri";
 // import { FaRegUser } from "react-icons/fa";
 import Login from "../../components/Login/Login";
+import Search from "../../components/Search/Search";
 
 const Navbar = () => {
   const [scroll, setScroll] = useState(false);
@@ -51,16 +52,16 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <div className=" flex w-[15%] justify-evenly items-center">
+        <div className=" flex gap-[30px] justify-center items-center">
+        <div className="text-white hover:text-gray-900">
+            <Search/>
+          </div>
           <Link className="text-white hover:text-gray-900" to="/cart">
             <RiShoppingBag2Line size={28} />
           </Link>
-          <button className="text-white hover:text-gray-900">
-            <RiSearchLine size={28} />
-          </button>
-          <Link className="text-white hover:text-gray-900" >
+          <div className="text-white hover:text-gray-900 mt-2" >
             <Login/>
-          </Link>
+          </div>
         </div>
       </div>
       <Outlet />
