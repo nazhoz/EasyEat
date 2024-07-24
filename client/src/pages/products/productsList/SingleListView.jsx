@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { ShopContext } from "../../../context/ShopContext";
@@ -6,15 +6,24 @@ import Counters from "./Counters";
 import RelatedProducts from "./RelatedProducts";
 import { addToCart } from "../../../features/cart/cartSlice";
 import { toast } from "react-toastify";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const SingleListView = () => {
   const { id } = useParams();
   const { products } = useContext(ShopContext);
+  const [loading, setLoading] = useState(true);
   const product = products.find((product) => product.id === parseInt(id));
   const dispatch = useDispatch();
 
   const cartItems = useSelector((state) => state.cart.cartItems);
   const cartItem = cartItems.find((item) => item.id === parseInt(id));
+
+  useEffect(() => {
+    // Simulate loading time
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
 
   const renderStars = (rating) => {
     const stars = [];
@@ -49,11 +58,33 @@ const SingleListView = () => {
     });
   };
 
+  if (loading) {
+    return (
+      <div className="flex flex-col items-center gap-6 bg-customerBackroundColor">
+        <div className="mt-[50px] flex flex-col w-[100%]">
+          <div className="flex w-[100%] h-[100vh] justify-around items-center">
+            <Skeleton width={450} height={400} />
+            <div className="w-[40%] h-[400px] flex flex-col justify-between items-start">
+              <Skeleton width={300} height={30} />
+              <Skeleton width={200} height={20} />
+              <Skeleton width={100} height={20} />
+              <Skeleton width={250} height={20} count={3} />
+              <Skeleton width={100} height={20} count={3} />
+            </div>
+          </div>
+          <div>
+            <Skeleton width={200} height={20} count={5} />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (!product) {
     return <div>Product Not Found</div>;
   }
   return (
-    <div className="flex flex-col items-center gap-6  bg-customerBackroundColor">
+    <div className="flex flex-col items-center gap-6 bg-customerBackroundColor">
       <div className="mt-[50px] flex flex-col w-[100%]">
         <div className="flex w-[100%] h-[100vh] justify-around items-center ">
           <img
@@ -84,7 +115,9 @@ const SingleListView = () => {
                 </span>
                 <div className="grid grid-cols-2">
                   {product.ingredients.map((ingre) => (
-                    <li className="ml-8 text-slate-600">{ingre}</li>
+                    <li key={ingre} className="ml-8 text-slate-600">
+                      {ingre}
+                    </li>
                   ))}
                 </div>
               </div>

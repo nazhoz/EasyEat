@@ -1,4 +1,4 @@
-import React, { useContext, useMemo, useState } from "react";
+import React, { useContext, useMemo, useState, useEffect } from "react";
 import { ShopContext } from "../../../context/ShopContext";
 import Category from "./Category";
 import List from "./List";
@@ -9,7 +9,16 @@ const ProductList = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchSuggestions, setSearchSuggestions] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [isLoading, setIsLoading] = useState(true);
   const itemsPerPage = 9;
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000); // simulate loading delay
+
+    return () => clearTimeout(timer);
+  }, [products]);
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
@@ -69,10 +78,9 @@ const ProductList = () => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     return filteredProducts.slice(startIndex, startIndex + itemsPerPage);
   }, [currentPage, filteredProducts]);
-  
+
   return (
-    <div className=" w-[100%] flex items-center justify-start  gap-10">
-      {/* <span className='text-[45px] font-bold'>Shops</span>  */}
+    <div className="w-[100%] flex items-center justify-start gap-10">
       <div className="flex justify-between items-start w-[100%] mt-[140px] px-9 ">
         <div className="w-[80%]">
           <List
@@ -80,6 +88,7 @@ const ProductList = () => {
             currentPage={currentPage}
             totalPages={Math.ceil(filteredProducts.length / itemsPerPage)}
             onPageChange={handlePageChange}
+            isLoading={isLoading}
           />
         </div>
         <div className="bg-white w-[250px] rounded-lg mt-8">
